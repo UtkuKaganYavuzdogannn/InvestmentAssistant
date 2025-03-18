@@ -1,0 +1,7 @@
+@InvestmentAssistant_HostAddress = http://localhost:5117
+
+GET {{InvestmentAssistant_HostAddress}}/Investment/GetStockData
+Accept: application/json
+
+
+###
