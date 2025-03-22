@@ -1,43 +1,53 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using System.Threading.Tasks;
 
 [Route("api/[controller]")]
 [ApiController]
 public class InvestmentController : ControllerBase
 {
     private readonly HttpClient _httpClient;
-    private const string ApiKey = "99ed4fc6765e8e20541a472ea4039933"; // API Key
+    private const string ApiKey = "CG-VScB9m3aeevEG8SALpEZMQyV"; // API Key
 
     public InvestmentController(HttpClient httpClient)
     {
-        _httpClient = httpClient;
+        _httpClient =  httpClient;
     }
 
     [HttpGet("prices")]
-    public async Task<IActionResult> GetCryptoAndCommodityPrices()
+    public async Task<IActionResult> GetKriptoVeEmtialar()
     {
         try
         {
-            // Çekilecek varlıklar (kripto paralar ve emtialar)
-            string assets = "bitcoin,ethereum,tether,bnb,solana,xrp,dogecoin,cardano,tron,polkadot,gold,silver";
 
-            // API URL'si
-            string apiUrl = $"https://api.coingecko.com/api/v3/simple/price?ids={assets}&vs_currencies=usd";
+
+
+
+            // Çekilecek varlıklar (kripto paralar ve emtialar)
+            string varliklar = "bitcoin,ethereum,tether,bnb,solana,xrp,dogecoin,cardano,tron,polkadot,gold,silver";
+
+            string apiUrl = $"https://api.coingecko.com/api/v3/simple/price?ids={varliklar}&vs_currencies=usd";
+
 
             // API key'i header'a ekliyoruz
             _httpClient.DefaultRequestHeaders.Add("x-cg-api-key", ApiKey);
 
-            HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
+            var api_cevabı = await _httpClient.GetAsync(apiUrl);
 
+
+            /*
             if (!response.IsSuccessStatusCode)
             {
                 return StatusCode((int)response.StatusCode, "Fiyatları alırken hata oluştu.");
             }
-
-            string result = await response.Content.ReadAsStringAsync();
+            */
+          
+            string result = await api_cevabı.Content.ReadAsStringAsync();
             return Ok(result);
         }
+       
+        
+        
+        
+        
         catch (Exception ex)
         {
             return StatusCode(500, $"Sunucu hatası: {ex.Message}");

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A66D3912-6075-409B-9DA3-3E2579A4AD6C}|InvestmentAssistant\\InvestmentAssistant.csproj|solutionrelative:investmentassistant\\controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A66D3912-6075-409B-9DA3-3E2579A4AD6C}|InvestmentAssistant\\InvestmentAssistant.csproj|c:\\users\\term\\desktop\\web_api_project\\investmentassistant\\investmentassistant\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A66D3912-6075-409B-9DA3-3E2579A4AD6C}|InvestmentAssistant\\InvestmentAssistant.csproj|solutionrelative:investmentassistant\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A66D3912-6075-409B-9DA3-3E2579A4AD6C}|InvestmentAssistant\\InvestmentAssistant.csproj|c:\\users\\term\\desktop\\web_api_project\\investmentassistant\\investmentassistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A66D3912-6075-409B-9DA3-3E2579A4AD6C}|InvestmentAssistant\\InvestmentAssistant.csproj|solutionrelative:investmentassistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TERM\\Desktop\\web_api_project\\InvestmentAssistant\\InvestmentAssistant\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InvestmentAssistant\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TERM\\Desktop\\web_api_project\\InvestmentAssistant\\InvestmentAssistant\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InvestmentAssistant\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T16:48:27.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TERM\\Desktop\\web_api_project\\InvestmentAssistant\\InvestmentAssistant\\Program.cs",
               "RelativeDocumentMoniker": "InvestmentAssistant\\Program.cs",
@@ -38,8 +54,7 @@
               "RelativeToolTip": "InvestmentAssistant\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T21:30:38.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T21:30:38.589Z"
             },
             {
               "$type": "Document",
@@ -49,7 +64,7 @@
               "RelativeDocumentMoniker": "InvestmentAssistant\\Controllers\\InvestmentController.cs",
               "ToolTip": "C:\\Users\\TERM\\Desktop\\web_api_project\\InvestmentAssistant\\InvestmentAssistant\\Controllers\\InvestmentController.cs",
               "RelativeToolTip": "InvestmentAssistant\\Controllers\\InvestmentController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T15:12:19.548Z",
               "EditorCaption": ""

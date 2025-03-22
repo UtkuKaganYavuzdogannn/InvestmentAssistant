@@ -42,8 +42,7 @@
               "RelativeToolTip": "InvestmentAssistant\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T16:48:27.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T16:48:27.536Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "InvestmentAssistant\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T21:30:38.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T21:30:38.589Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "InvestmentAssistant\\Controllers\\InvestmentController.cs",
               "ToolTip": "C:\\Users\\TERM\\Desktop\\web_api_project\\InvestmentAssistant\\InvestmentAssistant\\Controllers\\InvestmentController.cs",
               "RelativeToolTip": "InvestmentAssistant\\Controllers\\InvestmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T15:12:19.548Z",
               "EditorCaption": ""

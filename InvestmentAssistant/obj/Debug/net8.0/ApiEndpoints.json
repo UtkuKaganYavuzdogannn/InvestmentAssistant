@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "InvestmentController",
-    "Method": "GetCryptoAndCommodityPrices",
+    "Method": "GetKriptoVeEmtialar",
     "RelativePath": "api/Investment/prices",
     "HttpMethod": "GET",
     "IsController": true,
