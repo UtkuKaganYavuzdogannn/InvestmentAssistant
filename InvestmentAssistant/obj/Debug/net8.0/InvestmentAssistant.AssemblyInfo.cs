@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InvestmentAssistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfd7895898e03d3517c260279e39f4e52bd507c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47d88fde60c04e6de89b4db30a17d76d64694aa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InvestmentAssistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InvestmentAssistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
