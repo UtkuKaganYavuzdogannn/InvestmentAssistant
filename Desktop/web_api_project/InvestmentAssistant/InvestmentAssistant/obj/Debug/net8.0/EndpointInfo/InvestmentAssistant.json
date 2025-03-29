@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "InvestmentAssistant",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Investment/prices": {
+      "get": {
+        "tags": [
+          "Investment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

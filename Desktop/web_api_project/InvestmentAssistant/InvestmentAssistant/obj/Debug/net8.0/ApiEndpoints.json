@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "InvestmentController",
+    "Method": "GetKriptoVeEmtialar",
+    "RelativePath": "api/Investment/prices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
