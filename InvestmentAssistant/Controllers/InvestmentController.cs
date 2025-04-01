@@ -3,32 +3,35 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.Extensions.Caching.Memory;
 
 [Route("api/[controller]")]
 [ApiController]
-public class InvestmentController : ControllerBase
+public class InvestmentController : Controller
 {
 
     //Tek bir istekte aynı httpClient kullanacağımızdan tekrar tekrar kullanmak için HttpClient nesnesi oluşturuyoruz.
     private readonly HttpClient _httpClient;
-
+    private readonly IMemoryCache _cache;
     /* Coingecko ücretsiz apisi kullandığımız için buna şuan gerek yok.
     private const string ApiKey = "CG-VScB9m3aeevEG8SALpEZMQyV0000";  API Key */
 
 
     //Dependency Injection ile HttpClient nesnesini yani "httpClient"ı kendi yerel değişkenimiz olan _httpClient'a enjekte ediyoruz.
-    public InvestmentController(HttpClient httpClient)
+    public InvestmentController(HttpClient httpClient ,  IMemoryCache cache)
     {
         _httpClient = httpClient;
+        _cache = cache;
+
     }
 
+    
+
+    
 
 
 
-
-
-
-    [HttpGet("prices")]   //https://localhost:5001/api/investment/prices 
+    [HttpGet("prices")]   //https://localhost:7215/api/investment/prices 
     public async Task<IActionResult> GetKriptoVeEmtialar()
     {
         try
