@@ -1,3 +1,8 @@
+using InvestmentAssistant.Model;
+using Microsoft.EntityFrameworkCore;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,6 +24,12 @@ builder.Services.AddSwaggerGen();
 // HttpClient ve Cache Servislerini Ekle
 builder.Services.AddHttpClient();
 builder.Services.AddMemoryCache(); // IMemoryCache için ekleme
+
+
+builder.Services.AddDbContext<VarlýklarDbContext>
+    (options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("MyDatabaseConnection"),
+    new MySqlServerVersion(new Version(8, 0, 36))));
 
 var app = builder.Build();
 

@@ -36,3 +36,17 @@ C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\ob
 C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\obj\Debug\net8.0\InvestmentAssistant.genruntimeconfig.cache
 C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\obj\Debug\net8.0\ref\InvestmentAssistant.dll
 C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\TERM\Desktop\web_api_project\InvestmentAssistant\InvestmentAssistant\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
