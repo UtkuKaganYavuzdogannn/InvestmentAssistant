@@ -8,6 +8,6 @@
         public decimal FiyatUsd { get; set; }
         public DateTime GuncellenmeZamani { get; set; } // Coingecko'dan çekilme zamanı
 
-        public decimal Onceki_fiyatı { get; set; } // Önceki fiyatı
+        public decimal Onceki_fiyati { get; set; } // Önceki fiyatı
     }
 }

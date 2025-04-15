@@ -1,9 +1,17 @@
 using InvestmentAssistant.Model;
+using InvestmentAssistant.Services;
 using Microsoft.EntityFrameworkCore;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+//Uygulamanýn baþlamasý ile baþalayacak olan CoinUpdateService'ni ekliyoruz.
+//builder.Services.AddHostedService<CoinUpdateService>();
+builder.Services.AddSingleton<SimpleDataFetcherService>();
+
+
+
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -48,5 +56,9 @@ app.UseCors("AllowReactApp");
 app.UseAuthorization();
 
 app.MapControllers();
+
+
+var fetcher = app.Services.GetRequiredService<SimpleDataFetcherService>();
+_ = fetcher.StartFetchingAsync(); // async olduðu için _ = kullanýyoruz
 
 app.Run();

@@ -52,7 +52,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[7.0.18, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -60,7 +60,7 @@
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
